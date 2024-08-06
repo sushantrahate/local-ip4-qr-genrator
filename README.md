@@ -4,4 +4,4 @@ Generate QR codes for local IPv4 addresses with this simple web app. Input IP se
 
 ## Usage
 
-[]()
+[Live](https://sushantrahate.github.io/local-ip4-qr-genrator/)
