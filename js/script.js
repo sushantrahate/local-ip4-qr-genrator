@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const url = `${baseUrl}${ipSegment1}.${ipSegment2}:${port}`;
 
       // Display the URL as a clickable link
-      resultDiv.innerHTML = `<a href="${url}" target="_blank" class="text-blue-500 underline">${url}</a>`;
+      resultDiv.innerHTML = `<a href="${url}" target="_blank" class="text-blue-300 font-bold underline">${url}</a>`;
 
       // Generate the QR code
       const qrCode = new QRCodeStyling({
