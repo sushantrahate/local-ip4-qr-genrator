@@ -14,10 +14,14 @@
     <h1 class="text-2xl font-bold mb-4">Local IPv4 QR Generator</h1>
     <p>Scan the QR code to open the host on other local devices.</p>
     <div class="mb-4 flex items-center space-x-2">
-      <label for="ipSegment" class="block text-lf font-medium text-stone-200">http://192.168. </label>
-      <input id="ipSegment1" autocomplete="off" type="text" value="1"
+      <!-- <label for="ipSegment" class="block text-lf font-medium text-stone-200">http://192.168. </label> -->
+      <input id="ipSegment1" autocomplete="off" type="text" value="192"
+        class="mt-1 p-2 border border-gray-300 rounded w-11 text-stone-900 font-medium" placeholder="192"> .
+      <input id="ipSegment2" autocomplete="off" type="text" value="168"
+        class="mt-1 p-2 border border-gray-300 rounded w-11 text-stone-900 font-medium" placeholder="168">
+      <input id="ipSegment3" autocomplete="off" type="text"
         class="mt-1 p-2 border border-gray-300 rounded w-11 text-stone-900 font-medium" placeholder="1"> .
-      <input id="ipSegment2" autocomplete="off" type="text"
+      <input id="ipSegment4" autocomplete="off" type="text"
         class="mt-1 p-2 border border-gray-300 rounded w-11 text-stone-900 font-medium" placeholder="9">
       <label for="port" class="block text-lg font-medium text-stone-200">Port</label>
       <input id="port" autocomplete="off" type="text"
